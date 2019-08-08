@@ -24,3 +24,12 @@ class LinkedList:
         temp = Node(data)
         temp.next(self.head)
         self.head = temp
+
+    def delete(self):
+        pass
+
+    def search(self):
+        pass
+
+    def length(self):
+        pass

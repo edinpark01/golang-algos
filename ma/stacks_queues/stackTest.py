@@ -17,8 +17,7 @@ class MyTestCase(unittest.TestCase):
         temp = Stack()
         temp.push_item(123)
         temp.push_item(321)
-        temp.pop_item()
-        self.assertEqual(temp.top_item(), 123)
+        self.assertEqual(temp.pop_item(), 321)
 
     def test_top_item(self):
         temp = Stack()
